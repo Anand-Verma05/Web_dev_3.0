@@ -3,9 +3,9 @@ import ellipse21 from "../../assets/images/projectpage/gr2.svg";
 
 export const Gradientwhite = () => {
   return (
-    <div className="absolute w-[500px] h-[500px]">
+    <div className="absolute w-full h-full flex ">
       <img
-        className=" w-full h-full object-cover"
+        className=" w-full h-full object-cover r"
         alt="Ellipse"
         src={ellipse21}
       />
