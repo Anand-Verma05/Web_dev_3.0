@@ -39,7 +39,7 @@ const WorkshopInfo = () => {
   return (
     <div>
       <Header />
-      {/* <div className="mt-12 md:mt-10 flex flex-col items-center justify-center min-h-screen">
+      <div className="mt-12 md:mt-10 flex flex-col items-center justify-center min-h-screen">
         <div className=" bg-white/5  backdrop-opacity-5 backdrop-brightness-10 shadow-lg backdrop-blur-sm rounded-lg overflow-hidden flex flex-col md:flex-row max-w-6xl w-full">
           <div className="p-4 w-full md:w-2/3">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -226,7 +226,7 @@ const WorkshopInfo = () => {
             />
           </div>
         </div>
-      </div> */}
+      </div>
       <h1 className="flex justify-center align-center text-red-500 text-xl my-10">
 
         Registrations Closed

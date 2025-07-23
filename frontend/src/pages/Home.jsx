@@ -11,6 +11,7 @@ import {
 import Contact from "../components/ContactUs/Contact";
 import Footer from "../components/Footer/FooterComp";
 import UpcomingWorkshops from "../components/UpcomingWorkshops/UpcomingWorkshops";
+import Project from "../components/Projectpage";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             {/* <UpcomingWorkshops /> */}
             
             {/* <Contact /> */}
-
+            <Project/>
             <Footer />
             <StarsCanvas />
           </div>
